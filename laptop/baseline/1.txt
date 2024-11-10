@@ -1,0 +1,1042 @@
+Statistics for 6804 Aesop calls in current and imported modules
+Displaying totals and [averages]
+Total Aesop time:      4073218.0ms [598.6ms]
+Config parsing:        31807.2ms [4.6ms]
+Rule set construction: 21669.8ms [3.1ms]
+Rule selection:        219815.2ms [32.3ms]
+Script generation:     159.2ms [0.0ms]
+Search:                4017392.8ms [590.4ms]
+Rules:
+  <norm simp>:
+    total:      14411 in 3309718.5ms [229.6ms]
+    successful: 14411 in 3309718.5ms [229.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  <norm unfold>:
+    total:      14584 in 141438.2ms [9.6ms]
+    successful: 14584 in 141438.2ms [9.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|tactic|global|Aesop.BuiltinRules.rfl:
+    total:      5037 in 50644.1ms [10.0ms]
+    successful: 1832 in 23175.6ms [12.6ms]
+    failed:     3205 in 27468.4ms [8.5ms]
+  unsafe|tactic|global|Aesop.BuiltinRules.ext:
+    total:      1363 in 24542.8ms [18.0ms]
+    successful: 1314 in 24493.8ms [18.6ms]
+    failed:     49 in 48.9ms [0.9ms]
+  safe|apply|global|continuous_of_discreteTopology:
+    total:      287 in 23343.4ms [81.3ms]
+    successful: 2 in 30.9ms [15.4ms]
+    failed:     285 in 23312.4ms [81.7ms]
+  safe|tactic|global|Aesop.BuiltinRules.assumption:
+    total:      5167 in 17867.3ms [3.4ms]
+    successful: 141 in 654.3ms [4.6ms]
+    failed:     5026 in 17212.9ms [3.4ms]
+  safe|tactic|global|Aesop.BuiltinRule.preprocess:
+    total:      6804 in 17282.3ms [2.5ms]
+    successful: 6804 in 17282.3ms [2.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  norm|tactic|global|Aesop.BuiltinRules.intros:
+    total:      19316 in 15483.0ms [0.8ms]
+    successful: 4216 in 5802.9ms [1.3ms]
+    failed:     15100 in 9680.0ms [0.6ms]
+  safe|apply|global|Subsingleton.elim:
+    total:      1517 in 13782.4ms [9.0ms]
+    successful: 141 in 872.1ms [6.1ms]
+    failed:     1376 in 12910.3ms [9.3ms]
+  unsafe|tactic|global|Aesop.BuiltinRules.applyHyps:
+    total:      1952 in 8963.8ms [4.5ms]
+    successful: 236 in 1527.5ms [6.4ms]
+    failed:     1716 in 7436.2ms [4.3ms]
+  safe|apply|global|continuous_add_right:
+    total:      241 in 7814.5ms [32.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     241 in 7814.5ms [32.4ms]
+  safe|apply|global|Continuous.nsmul:
+    total:      245 in 6043.3ms [24.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     245 in 6043.3ms [24.6ms]
+  safe|destruct|global|Eq.trans_le:
+    total:      33 in 4864.4ms [147.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     33 in 4864.4ms [147.4ms]
+  norm|tactic|global|Aesop.BuiltinRules.destructProducts:
+    total:      231 in 4264.0ms [18.4ms]
+    successful: 231 in 4264.0ms [18.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|tactic|global|Aesop.BuiltinRules.splitTarget:
+    total:      2321 in 3379.5ms [1.4ms]
+    successful: 57 in 2198.8ms [38.5ms]
+    failed:     2264 in 1180.7ms [0.5ms]
+  safe|apply|global|Continuous.pow:
+    total:      245 in 3139.0ms [12.8ms]
+    successful: 7 in 191.0ms [27.2ms]
+    failed:     238 in 2947.9ms [12.3ms]
+  safe|apply|global|continuous_sub_right:
+    total:      130 in 2900.9ms [22.3ms]
+    successful: 2 in 24.8ms [12.4ms]
+    failed:     128 in 2876.0ms [22.4ms]
+  safe|apply|global|continuous_mul_right:
+    total:      153 in 2857.1ms [18.6ms]
+    successful: 5 in 127.8ms [25.5ms]
+    failed:     148 in 2729.2ms [18.4ms]
+  safe|apply|global|continuous_div_right':
+    total:      201 in 2729.0ms [13.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     201 in 2729.0ms [13.5ms]
+  safe|apply|global|continuous_bot:
+    total:      430 in 2654.3ms [6.1ms]
+    successful: 4 in 24.3ms [6.0ms]
+    failed:     426 in 2629.9ms [6.1ms]
+  norm|tactic|global|Aesop.BuiltinRules.subst:
+    total:      1610 in 2623.8ms [1.6ms]
+    successful: 560 in 1328.7ms [2.3ms]
+    failed:     1050 in 1295.0ms [1.2ms]
+  safe|apply|global|Continuous.add:
+    total:      122 in 2590.2ms [21.2ms]
+    successful: 15 in 349.0ms [23.2ms]
+    failed:     107 in 2241.1ms [20.9ms]
+  safe|apply|global|continuous_pow:
+    total:      143 in 2295.4ms [16.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     143 in 2295.4ms [16.0ms]
+  safe|apply|global|Continuous.div_const:
+    total:      33 in 2294.3ms [69.5ms]
+    successful: 6 in 219.3ms [36.5ms]
+    failed:     27 in 2075.0ms [76.8ms]
+  safe|apply|global|le_refl:
+    total:      45 in 2192.0ms [48.7ms]
+    successful: 4 in 16.7ms [4.1ms]
+    failed:     41 in 2175.3ms [53.0ms]
+  safe|apply|global|Continuous.div':
+    total:      34 in 2143.6ms [63.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     34 in 2143.6ms [63.0ms]
+  safe|apply|global|Continuous.star:
+    total:      14 in 1550.4ms [110.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     14 in 1550.4ms [110.7ms]
+  unsafe|apply|global|IsSelfAdjoint.of_nonneg:
+    total:      27 in 1461.5ms [54.1ms]
+    successful: 26 in 1422.7ms [54.7ms]
+    failed:     1 in 38.8ms [38.8ms]
+  safe|apply|global|Continuous.neg:
+    total:      15 in 1447.9ms [96.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     15 in 1447.9ms [96.5ms]
+  safe|tactic|global|Aesop.BuiltinRules.splitHypotheses:
+    total:      2082 in 1426.2ms [0.6ms]
+    successful: 8 in 291.9ms [36.4ms]
+    failed:     2074 in 1134.3ms [0.5ms]
+  safe|apply|global|Submodule.subset_span:
+    total:      2 in 1110.0ms [555.0ms]
+    successful: 1 in 3.7ms [3.7ms]
+    failed:     1 in 1106.3ms [1106.3ms]
+  safe|apply|global|Continuous.mul:
+    total:      27 in 1077.8ms [39.9ms]
+    successful: 12 in 239.0ms [19.9ms]
+    failed:     15 in 838.7ms [55.9ms]
+  safe|apply|global|continuous_add:
+    total:      74 in 1068.4ms [14.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     74 in 1068.4ms [14.4ms]
+  safe|apply|global|continuous_zpow:
+    total:      128 in 1015.5ms [7.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     128 in 1015.5ms [7.9ms]
+  safe|apply|global|continuous_top:
+    total:      247 in 1000.6ms [4.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     247 in 1000.6ms [4.0ms]
+  safe|apply|global|continuous_finset_sum:
+    total:      200 in 1000.5ms [5.0ms]
+    successful: 4 in 448.9ms [112.2ms]
+    failed:     196 in 551.6ms [2.8ms]
+  safe|apply|global|continuous_list_prod:
+    total:      153 in 908.8ms [5.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     153 in 908.8ms [5.9ms]
+  safe|apply|global|continuous_list_sum:
+    total:      153 in 902.1ms [5.8ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     153 in 902.1ms [5.8ms]
+  safe|apply|global|le_sup_left:
+    total:      19 in 833.5ms [43.8ms]
+    successful: 9 in 377.2ms [41.9ms]
+    failed:     10 in 456.2ms [45.6ms]
+  safe|apply|global|Continuous.inv:
+    total:      26 in 786.4ms [30.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     26 in 786.4ms [30.2ms]
+  safe|apply|global|continuous_finset_prod:
+    total:      201 in 734.8ms [3.6ms]
+    successful: 1 in 11.7ms [11.7ms]
+    failed:     200 in 723.0ms [3.6ms]
+  safe|apply|global|AddSubmonoid.subset_closure:
+    total:      2 in 722.9ms [361.4ms]
+    successful: 1 in 16.6ms [16.6ms]
+    failed:     1 in 706.2ms [706.2ms]
+  safe|cases|global|Or:
+    total:      71 in 660.7ms [9.3ms]
+    successful: 71 in 660.7ms [9.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_induced_dom:
+    total:      349 in 643.7ms [1.8ms]
+    successful: 38 in 53.8ms [1.4ms]
+    failed:     311 in 589.9ms [1.8ms]
+  safe|apply|global|Continuous.sub:
+    total:      14 in 563.4ms [40.2ms]
+    successful: 4 in 98.9ms [24.7ms]
+    failed:     10 in 464.5ms [46.4ms]
+  safe|apply|global|Finset.measurable_range_sup'':
+    total:      1 in 554.5ms [554.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 554.5ms [554.5ms]
+  safe|apply|global|le_top:
+    total:      5 in 501.1ms [100.2ms]
+    successful: 5 in 501.1ms [100.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.of_discrete:
+    total:      13 in 429.8ms [33.0ms]
+    successful: 1 in 2.0ms [2.0ms]
+    failed:     12 in 427.7ms [35.6ms]
+  safe|apply|global|continuous_multiset_prod:
+    total:      147 in 402.7ms [2.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     147 in 402.7ms [2.7ms]
+  safe|apply|global|continuous_multiset_sum:
+    total:      147 in 401.1ms [2.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     147 in 401.1ms [2.7ms]
+  safe|apply|global|Continuous.inv₀:
+    total:      25 in 393.4ms [15.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     25 in 393.4ms [15.7ms]
+  safe|apply|global|Continuous.matrix_det:
+    total:      7 in 393.4ms [56.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     7 in 393.4ms [56.2ms]
+  unsafe|apply|global|SetLike.mem_of_subset:
+    total:      84 in 364.1ms [4.3ms]
+    successful: 10 in 54.5ms [5.4ms]
+    failed:     74 in 309.6ms [4.1ms]
+  safe|cases|global|CategoryTheory.Discrete:
+    total:      75 in 363.0ms [4.8ms]
+    successful: 75 in 363.0ms [4.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|tactic|global|CategoryTheory.Limits.WidePullbackShape.evalCasesBash:
+    total:      3 in 346.3ms [115.4ms]
+    successful: 3 in 346.3ms [115.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.inf:
+    total:      22 in 346.0ms [15.7ms]
+    successful: 1 in 21.0ms [21.0ms]
+    failed:     21 in 324.9ms [15.4ms]
+  safe|apply|global|ContinuousMapClass.map_continuous:
+    total:      52 in 313.8ms [6.0ms]
+    successful: 52 in 313.8ms [6.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.comp':
+    total:      118 in 312.8ms [2.6ms]
+    successful: 75 in 231.9ms [3.0ms]
+    failed:     43 in 80.9ms [1.8ms]
+  safe|apply|global|ofNat_mem:
+    total:      18 in 296.6ms [16.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     18 in 296.6ms [16.4ms]
+  safe|apply|global|continuous_mul_left:
+    total:      14 in 286.7ms [20.4ms]
+    successful: 14 in 286.7ms [20.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_const:
+    total:      271 in 284.6ms [1.0ms]
+    successful: 33 in 60.7ms [1.8ms]
+    failed:     238 in 223.9ms [0.9ms]
+  safe|tactic|global|CategoryTheory.Pairwise.pairwiseCases:
+    total:      3 in 283.7ms [94.5ms]
+    successful: 3 in 283.7ms [94.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.max:
+    total:      26 in 279.0ms [10.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     26 in 279.0ms [10.7ms]
+  safe|constructors|global|And:
+    total:      182 in 270.2ms [1.4ms]
+    successful: 182 in 270.2ms [1.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|ContinuousNeg.continuous_neg:
+    total:      9 in 266.2ms [29.5ms]
+    successful: 9 in 266.2ms [29.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AlgebraicGeometry.Scheme.basicOpen_le:
+    total:      17 in 265.7ms [15.6ms]
+    successful: 15 in 137.3ms [9.1ms]
+    failed:     2 in 128.4ms [64.2ms]
+  unsafe|constructors|global|Exists:
+    total:      210 in 265.6ms [1.2ms]
+    successful: 210 in 265.6ms [1.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_id':
+    total:      217 in 204.6ms [0.9ms]
+    successful: 13 in 14.9ms [1.1ms]
+    failed:     204 in 189.7ms [0.9ms]
+  safe|apply|global|le_sup_right:
+    total:      13 in 202.7ms [15.5ms]
+    successful: 9 in 123.4ms [13.7ms]
+    failed:     4 in 79.3ms [19.8ms]
+  safe|apply|global|measurable_from_top:
+    total:      18 in 193.7ms [10.7ms]
+    successful: 1 in 2.5ms [2.5ms]
+    failed:     17 in 191.1ms [11.2ms]
+  safe|apply|global|MulMemClass.mul_mem:
+    total:      30 in 192.1ms [6.4ms]
+    successful: 19 in 105.0ms [5.5ms]
+    failed:     11 in 87.0ms [7.9ms]
+  safe|cases|global|Sum:
+    total:      18 in 177.3ms [9.8ms]
+    successful: 18 in 177.3ms [9.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|bot_le:
+    total:      3 in 174.8ms [58.2ms]
+    successful: 3 in 174.8ms [58.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  norm|destruct|global|Aesop.BuiltinRules.pEmpty_false:
+    total:      58 in 166.5ms [2.8ms]
+    successful: 58 in 166.5ms [2.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.const_smul:
+    total:      36 in 164.2ms [4.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     36 in 164.2ms [4.5ms]
+  safe|apply|global|Continuous.eval:
+    total:      23 in 158.0ms [6.8ms]
+    successful: 2 in 27.7ms [13.8ms]
+    failed:     21 in 130.3ms [6.2ms]
+  safe|apply|global|nsmul_mem:
+    total:      21 in 157.1ms [7.4ms]
+    successful: 1 in 29.6ms [29.6ms]
+    failed:     20 in 127.4ms [6.3ms]
+  safe|cases|global|CategoryTheory.WithTerminal:
+    total:      9 in 150.1ms [16.6ms]
+    successful: 9 in 150.1ms [16.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|cases|global|CategoryTheory.WithInitial:
+    total:      8 in 144.1ms [18.0ms]
+    successful: 8 in 144.1ms [18.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|tactic|global|CategoryTheory.Discrete.discreteCases:
+    total:      11 in 142.8ms [12.9ms]
+    successful: 7 in 113.0ms [16.1ms]
+    failed:     4 in 29.8ms [7.4ms]
+  safe|apply|global|Continuous.const_vadd:
+    total:      36 in 141.8ms [3.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     36 in 141.8ms [3.9ms]
+  safe|apply|global|continuous_inf:
+    total:      49 in 131.6ms [2.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     49 in 131.6ms [2.6ms]
+  safe|apply|global|Continuous.eval_const:
+    total:      21 in 130.6ms [6.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     21 in 130.6ms [6.2ms]
+  safe|constructors|global|Iff:
+    total:      92 in 130.4ms [1.4ms]
+    successful: 92 in 130.4ms [1.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.smul:
+    total:      15 in 130.1ms [8.6ms]
+    successful: 1 in 31.5ms [31.5ms]
+    failed:     14 in 98.5ms [7.0ms]
+  safe|apply|global|Continuous.clm_apply:
+    total:      23 in 126.7ms [5.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     23 in 126.7ms [5.5ms]
+  safe|apply|global|Measurable.add_const:
+    total:      1 in 126.5ms [126.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 126.5ms [126.5ms]
+  safe|apply|global|AddMemClass.add_mem:
+    total:      26 in 123.6ms [4.7ms]
+    successful: 2 in 23.3ms [11.6ms]
+    failed:     24 in 100.2ms [4.1ms]
+  safe|apply|global|div_nonneg:
+    total:      1 in 123.0ms [123.0ms]
+    successful: 1 in 123.0ms [123.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|OneMemClass.one_mem:
+    total:      21 in 120.1ms [5.7ms]
+    successful: 18 in 98.0ms [5.4ms]
+    failed:     3 in 22.1ms [7.3ms]
+  safe|apply|global|pow_mem:
+    total:      21 in 116.3ms [5.5ms]
+    successful: 18 in 67.4ms [3.7ms]
+    failed:     3 in 48.9ms [16.3ms]
+  safe|apply|global|Continuous.min:
+    total:      26 in 109.8ms [4.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     26 in 109.8ms [4.2ms]
+  safe|apply|global|Measurable.const_add:
+    total:      1 in 107.4ms [107.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 107.4ms [107.4ms]
+  safe|apply|global|Measurable.const_div:
+    total:      1 in 103.7ms [103.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 103.7ms [103.7ms]
+  safe|apply|global|Measurable.iInf:
+    total:      1 in 103.1ms [103.1ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 103.1ms [103.1ms]
+  safe|apply|global|continuous_mul:
+    total:      56 in 102.2ms [1.8ms]
+    successful: 1 in 28.9ms [28.9ms]
+    failed:     55 in 73.3ms [1.3ms]
+  safe|apply|global|ContinuousLinearMap.continuous:
+    total:      1 in 97.7ms [97.7ms]
+    successful: 1 in 97.7ms [97.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|InvMemClass.inv_mem:
+    total:      21 in 97.1ms [4.6ms]
+    successful: 18 in 74.7ms [4.1ms]
+    failed:     3 in 22.3ms [7.4ms]
+  safe|apply|global|continuous_fst:
+    total:      75 in 97.1ms [1.2ms]
+    successful: 16 in 36.5ms [2.2ms]
+    failed:     59 in 60.5ms [1.0ms]
+  safe|apply|global|Measurable.div_const:
+    total:      1 in 94.6ms [94.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 94.6ms [94.6ms]
+  safe|apply|global|Measurable.const_inf:
+    total:      1 in 94.0ms [94.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 94.0ms [94.0ms]
+  safe|destruct|global|CategoryTheory.WithInitial.false_of_to_star:
+    total:      9 in 91.2ms [10.1ms]
+    successful: 9 in 91.2ms [10.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.iInf_Prop:
+    total:      1 in 90.7ms [90.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 90.7ms [90.7ms]
+  safe|apply|global|ZeroMemClass.zero_mem:
+    total:      22 in 89.9ms [4.0ms]
+    successful: 2 in 16.8ms [8.4ms]
+    failed:     20 in 73.1ms [3.6ms]
+  safe|destruct|global|CategoryTheory.WithTerminal.false_of_from_star:
+    total:      9 in 89.6ms [9.9ms]
+    successful: 9 in 89.6ms [9.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.const_mul:
+    total:      1 in 89.3ms [89.3ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 89.3ms [89.3ms]
+  unsafe|apply|global|IsSelfAdjoint.sub:
+    total:      2 in 88.9ms [44.4ms]
+    successful: 2 in 88.9ms [44.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Set.add_mem_add:
+    total:      3 in 88.1ms [29.3ms]
+    successful: 3 in 88.1ms [29.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AkraBazziRecurrence.differentiableAt_smoothingFn:
+    total:      6 in 85.2ms [14.2ms]
+    successful: 6 in 85.2ms [14.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|tactic|global|CategoryTheory.Limits.WidePushoutShape.evalCasesBash':
+    total:      1 in 83.2ms [83.2ms]
+    successful: 1 in 83.2ms [83.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|IsSelfAdjoint.isStarNormal:
+    total:      4 in 83.0ms [20.7ms]
+    successful: 4 in 83.0ms [20.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|NegMemClass.neg_mem:
+    total:      21 in 82.0ms [3.9ms]
+    successful: 1 in 24.2ms [24.2ms]
+    failed:     20 in 57.7ms [2.8ms]
+  safe|apply|global|continuous_snd:
+    total:      57 in 81.1ms [1.4ms]
+    successful: 16 in 40.8ms [2.5ms]
+    failed:     41 in 40.3ms [0.9ms]
+  unsafe|apply|global|MeasureTheory.AEFinStronglyMeasurable.aemeasurable:
+    total:      4 in 80.5ms [20.1ms]
+    successful: 4 in 80.5ms [20.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|le_trans:
+    total:      10 in 80.3ms [8.0ms]
+    successful: 10 in 80.3ms [8.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|sub_mem:
+    total:      21 in 78.4ms [3.7ms]
+    successful: 1 in 18.7ms [18.7ms]
+    failed:     20 in 59.6ms [2.9ms]
+  safe|apply|global|CStarModule.inner_self_nonneg:
+    total:      4 in 74.1ms [18.5ms]
+    successful: 4 in 74.1ms [18.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_dist:
+    total:      25 in 72.2ms [2.8ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     25 in 72.2ms [2.8ms]
+  safe|apply|global|List.measurable_sum:
+    total:      1 in 71.7ms [71.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 71.7ms [71.7ms]
+  safe|apply|global|List.measurable_prod:
+    total:      1 in 70.9ms [70.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 70.9ms [70.9ms]
+  safe|apply|global|Aesop.BuiltinRules.not_intro:
+    total:      70 in 70.3ms [1.0ms]
+    successful: 70 in 70.3ms [1.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|Matroid.Basis.left_subset_ground:
+    total:      32 in 67.0ms [2.0ms]
+    successful: 32 in 67.0ms [2.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|div_mem:
+    total:      21 in 66.7ms [3.1ms]
+    successful: 18 in 40.5ms [2.2ms]
+    failed:     3 in 26.2ms [8.7ms]
+  unsafe|apply|global|Matroid.Indep.subset_ground:
+    total:      32 in 66.5ms [2.0ms]
+    successful: 32 in 66.5ms [2.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|inf_le_left:
+    total:      2 in 65.8ms [32.9ms]
+    successful: 2 in 65.8ms [32.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|Matroid.Basis.subset_ground:
+    total:      32 in 64.3ms [2.0ms]
+    successful: 32 in 64.3ms [2.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_sup:
+    total:      37 in 63.3ms [1.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     37 in 63.3ms [1.7ms]
+  safe|apply|global|Measurable.const_sub:
+    total:      1 in 62.2ms [62.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 62.2ms [62.2ms]
+  safe|apply|global|Finset.measurable_sum':
+    total:      1 in 60.4ms [60.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 60.4ms [60.4ms]
+  safe|apply|global|Finset.measurable_prod':
+    total:      1 in 60.4ms [60.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 60.4ms [60.4ms]
+  safe|cases|global|Sym2.Rel:
+    total:      3 in 60.3ms [20.1ms]
+    successful: 3 in 60.3ms [20.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.subset_ground_of_subset:
+    total:      24 in 60.0ms [2.5ms]
+    successful: 24 in 60.0ms [2.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.const_sup:
+    total:      1 in 58.9ms [58.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 58.9ms [58.9ms]
+  unsafe|apply|global|Matroid.Dep.subset_ground:
+    total:      32 in 58.0ms [1.8ms]
+    successful: 32 in 58.0ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.subtype_mk:
+    total:      14 in 56.8ms [4.0ms]
+    successful: 14 in 56.8ms [4.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.const_pow:
+    total:      1 in 55.1ms [55.1ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 55.1ms [55.1ms]
+  safe|apply|global|Finset.measurable_sum:
+    total:      1 in 52.3ms [52.3ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 52.3ms [52.3ms]
+  safe|apply|global|Finset.measurable_prod:
+    total:      1 in 52.2ms [52.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 52.2ms [52.2ms]
+  safe|apply|global|continuous_apply:
+    total:      25 in 50.9ms [2.0ms]
+    successful: 11 in 29.9ms [2.7ms]
+    failed:     14 in 20.9ms [1.4ms]
+  norm|destruct|global|CategoryTheory.hom_inr_inl_false:
+    total:      4 in 46.8ms [11.7ms]
+    successful: 2 in 27.2ms [13.6ms]
+    failed:     2 in 19.5ms [9.7ms]
+  safe|apply|global|Continuous.matrix_dotProduct:
+    total:      7 in 46.5ms [6.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     7 in 46.5ms [6.6ms]
+  safe|apply|global|zpow_mem:
+    total:      21 in 45.1ms [2.1ms]
+    successful: 18 in 30.5ms [1.6ms]
+    failed:     3 in 14.6ms [4.8ms]
+  safe|apply|global|Continuous.matrix_trace:
+    total:      7 in 44.0ms [6.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     7 in 44.0ms [6.2ms]
+  unsafe|apply|global|Matroid.Base.subset_ground:
+    total:      24 in 43.9ms [1.8ms]
+    successful: 24 in 43.9ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|zsmul_mem:
+    total:      21 in 43.0ms [2.0ms]
+    successful: 1 in 6.5ms [6.5ms]
+    failed:     20 in 36.5ms [1.8ms]
+  safe|apply|global|Measurable.find:
+    total:      5 in 42.1ms [8.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     5 in 42.1ms [8.4ms]
+  safe|apply|global|measurable_const:
+    total:      5 in 39.7ms [7.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     5 in 39.7ms [7.9ms]
+  unsafe|apply|global|Matroid.Coindep.subset_ground:
+    total:      20 in 37.3ms [1.8ms]
+    successful: 20 in 37.3ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|IsSelfAdjoint.conjugate':
+    total:      1 in 35.5ms [35.5ms]
+    successful: 1 in 35.5ms [35.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.subtype_coe:
+    total:      4 in 35.1ms [8.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     4 in 35.1ms [8.7ms]
+  safe|apply|global|AlgebraicGeometry.Scheme.basicOpen_restrict:
+    total:      2 in 34.6ms [17.3ms]
+    successful: 2 in 34.6ms [17.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_sub_left:
+    total:      1 in 34.1ms [34.1ms]
+    successful: 1 in 34.1ms [34.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|measurable_of_subsingleton_codomain:
+    total:      18 in 33.5ms [1.8ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     18 in 33.5ms [1.8ms]
+  safe|apply|global|SMulMemClass.smul_mem:
+    total:      4 in 32.4ms [8.1ms]
+    successful: 3 in 28.0ms [9.3ms]
+    failed:     1 in 4.4ms [4.4ms]
+  safe|apply|global|continuous_pi:
+    total:      10 in 32.2ms [3.2ms]
+    successful: 10 in 32.2ms [3.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.ennreal_tsum:
+    total:      1 in 32.0ms [32.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 32.0ms [32.0ms]
+  norm|destruct|global|CategoryTheory.hom_inl_inr_false:
+    total:      4 in 30.9ms [7.7ms]
+    successful: 2 in 14.8ms [7.4ms]
+    failed:     2 in 16.1ms [8.0ms]
+  safe|apply|global|Continuous.inner:
+    total:      7 in 29.2ms [4.1ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     7 in 29.2ms [4.1ms]
+  safe|apply|global|natCast_mem:
+    total:      2 in 29.2ms [14.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 29.2ms [14.6ms]
+  safe|apply|global|continuous_projIcc:
+    total:      4 in 26.6ms [6.6ms]
+    successful: 4 in 26.6ms [6.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|CategoryTheory.IsIso.inv_eq_of_hom_inv_id:
+    total:      4 in 26.2ms [6.5ms]
+    successful: 4 in 26.2ms [6.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.comp':
+    total:      4 in 26.2ms [6.5ms]
+    successful: 1 in 2.3ms [2.3ms]
+    failed:     3 in 23.8ms [7.9ms]
+  safe|cases|global|Eq:
+    total:      4 in 26.0ms [6.5ms]
+    successful: 4 in 26.0ms [6.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.ennreal_ofReal:
+    total:      1 in 25.9ms [25.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 25.9ms [25.9ms]
+  unsafe|constructors|global|Or:
+    total:      14 in 25.4ms [1.8ms]
+    successful: 14 in 25.4ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.coe_nnreal_ennreal:
+    total:      1 in 25.1ms [25.1ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 25.1ms [25.1ms]
+  safe|apply|global|continuous_subtype_val:
+    total:      20 in 25.0ms [1.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     20 in 25.0ms [1.2ms]
+  safe|apply|global|measurable_id':
+    total:      5 in 24.5ms [4.9ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     5 in 24.5ms [4.9ms]
+  safe|apply|global|ContinuousLinearMap.continuous_restrictScalars:
+    total:      1 in 22.3ms [22.3ms]
+    successful: 1 in 22.3ms [22.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Submodule.mem_set_smul_of_mem_mem:
+    total:      3 in 18.6ms [6.2ms]
+    successful: 3 in 18.6ms [6.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_id:
+    total:      10 in 18.2ms [1.8ms]
+    successful: 10 in 18.2ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Subsingleton.measurable:
+    total:      11 in 16.5ms [1.5ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     11 in 16.5ms [1.5ms]
+  safe|apply|global|CategoryTheory.Iso.inv_ext':
+    total:      4 in 16.5ms [4.1ms]
+    successful: 4 in 16.5ms [4.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|Finset.mul_mem_mul:
+    total:      3 in 16.1ms [5.3ms]
+    successful: 3 in 16.1ms [5.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|ContinuousMultilinearMap.continuous_restrictScalars:
+    total:      1 in 15.8ms [15.8ms]
+    successful: 1 in 15.8ms [15.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AkraBazziRecurrence.max_bi_le:
+    total:      4 in 15.2ms [3.8ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     4 in 15.2ms [3.8ms]
+  norm|constructors|global|Sym2.Rel:
+    total:      11 in 15.0ms [1.3ms]
+    successful: 8 in 10.3ms [1.2ms]
+    failed:     3 in 4.6ms [1.5ms]
+  safe|apply|global|MeasurableSpace.measurableSet_top:
+    total:      2 in 14.8ms [7.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 14.8ms [7.4ms]
+  safe|apply|global|continuous_norm:
+    total:      2 in 14.5ms [7.2ms]
+    successful: 2 in 14.5ms [7.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_abs:
+    total:      1 in 14.3ms [14.3ms]
+    successful: 1 in 14.3ms [14.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|intCast_mem:
+    total:      2 in 14.1ms [7.0ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 14.1ms [7.0ms]
+  unsafe|apply|global|Matroid.Flat.subset_ground:
+    total:      8 in 13.9ms [1.7ms]
+    successful: 8 in 13.9ms [1.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|VAddMemClass.vadd_mem:
+    total:      2 in 13.4ms [6.7ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 13.4ms [6.7ms]
+  safe|apply|global|Continuous.dist:
+    total:      6 in 13.1ms [2.1ms]
+    successful: 1 in 2.3ms [2.3ms]
+    failed:     5 in 10.8ms [2.1ms]
+  safe|apply|global|inf_le_right:
+    total:      2 in 13.0ms [6.5ms]
+    successful: 2 in 13.0ms [6.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  norm|destruct|global|ULift.down:
+    total:      4 in 13.0ms [3.2ms]
+    successful: 2 in 5.9ms [2.9ms]
+    failed:     2 in 7.0ms [3.5ms]
+  unsafe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.ground_diff_subset_ground:
+    total:      6 in 13.0ms [2.1ms]
+    successful: 6 in 13.0ms [2.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.prodMap:
+    total:      3 in 12.6ms [4.2ms]
+    successful: 3 in 12.6ms [4.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AkraBazziRecurrence.min_bi_le:
+    total:      4 in 12.3ms [3.0ms]
+    successful: 2 in 4.2ms [2.1ms]
+    failed:     2 in 8.0ms [4.0ms]
+  safe|apply|global|ContinuousAlternatingMap.continuous_restrictScalars:
+    total:      1 in 11.7ms [11.7ms]
+    successful: 1 in 11.7ms [11.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|MeasurableSet.of_discrete:
+    total:      2 in 10.7ms [5.3ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 10.7ms [5.3ms]
+  safe|apply|global|measurable_pi_apply:
+    total:      3 in 10.0ms [3.3ms]
+    successful: 1 in 2.9ms [2.9ms]
+    failed:     2 in 7.0ms [3.5ms]
+  safe|apply|global|Measurable.iSup:
+    total:      1 in 9.9ms [9.9ms]
+    successful: 1 in 9.9ms [9.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|lt_trans:
+    total:      1 in 9.6ms [9.6ms]
+    successful: 1 in 9.6ms [9.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Complex.continuous_exp:
+    total:      12 in 9.5ms [0.7ms]
+    successful: 12 in 9.5ms [0.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AkraBazziRecurrence.T_nonneg:
+    total:      2 in 9.2ms [4.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 9.2ms [4.6ms]
+  safe|apply|global|aemeasurable_of_subsingleton_codomain:
+    total:      4 in 9.1ms [2.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     4 in 9.1ms [2.2ms]
+  safe|apply|global|continuous_apply_apply:
+    total:      14 in 8.8ms [0.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     14 in 8.8ms [0.6ms]
+  safe|apply|global|MeasureTheory.Measure.measurable_rnDeriv:
+    total:      5 in 8.2ms [1.6ms]
+    successful: 5 in 8.2ms [1.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_sigmaMk:
+    total:      3 in 8.0ms [2.6ms]
+    successful: 3 in 8.0ms [2.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|forward|global|Real.log_pos:
+    total:      2 in 7.6ms [3.8ms]
+    successful: 1 in 3.5ms [3.5ms]
+    failed:     1 in 4.1ms [4.1ms]
+  unsafe|apply|global|MeasureTheory.StronglyMeasurable.aemeasurable:
+    total:      4 in 7.3ms [1.8ms]
+    successful: 4 in 7.3ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|MeasureTheory.AEStronglyMeasurable.aemeasurable:
+    total:      4 in 7.2ms [1.8ms]
+    successful: 4 in 7.2ms [1.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|measurable_from_nat:
+    total:      2 in 6.7ms [3.3ms]
+    successful: 2 in 6.7ms [3.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Homeomorph.continuous:
+    total:      4 in 6.6ms [1.6ms]
+    successful: 4 in 6.6ms [1.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Subsingleton.aemeasurable:
+    total:      4 in 6.6ms [1.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     4 in 6.6ms [1.6ms]
+  safe|apply|global|Flow.continuous_toFun:
+    total:      2 in 6.1ms [3.0ms]
+    successful: 2 in 6.1ms [3.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Finset.sum_nonneg:
+    total:      1 in 6.1ms [6.1ms]
+    successful: 1 in 6.1ms [6.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|Measurable.aemeasurable:
+    total:      4 in 6.0ms [1.5ms]
+    successful: 4 in 6.0ms [1.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.eval:
+    total:      2 in 5.3ms [2.6ms]
+    successful: 1 in 2.5ms [2.5ms]
+    failed:     1 in 2.8ms [2.8ms]
+  safe|apply|global|continuous_sum_swap:
+    total:      2 in 5.3ms [2.6ms]
+    successful: 2 in 5.3ms [2.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_inr:
+    total:      1 in 5.2ms [5.2ms]
+    successful: 1 in 5.2ms [5.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_inl:
+    total:      1 in 5.1ms [5.1ms]
+    successful: 1 in 5.1ms [5.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.indicator:
+    total:      2 in 4.8ms [2.4ms]
+    successful: 2 in 4.8ms [2.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.inter_left_subset_ground:
+    total:      2 in 4.6ms [2.3ms]
+    successful: 2 in 4.6ms [2.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|MeasurableSet.iUnion:
+    total:      2 in 4.6ms [2.3ms]
+    successful: 2 in 4.6ms [2.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.inter_right_subset_ground:
+    total:      2 in 4.6ms [2.3ms]
+    successful: 2 in 4.6ms [2.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Set.vadd_mem_vadd:
+    total:      1 in 4.3ms [4.3ms]
+    successful: 1 in 4.3ms [4.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|le_of_lt:
+    total:      1 in 4.2ms [4.2ms]
+    successful: 1 in 4.2ms [4.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|MeasurableEquiv.measurable:
+    total:      2 in 4.0ms [2.0ms]
+    successful: 2 in 4.0ms [2.0ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|destruct|global|Nat.not_prime_zero:
+    total:      1 in 3.6ms [3.6ms]
+    successful: 1 in 3.6ms [3.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|ContinuousMap.continuous_precomp:
+    total:      1 in 3.5ms [3.5ms]
+    successful: 1 in 3.5ms [3.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|destruct|global|Nat.not_prime_one:
+    total:      1 in 3.2ms [3.2ms]
+    successful: 1 in 3.2ms [3.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|unitInterval.continuous_symm:
+    total:      5 in 3.1ms [0.6ms]
+    successful: 5 in 3.1ms [0.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Complex.continuous_im:
+    total:      6 in 2.9ms [0.4ms]
+    successful: 2 in 1.1ms [0.5ms]
+    failed:     4 in 1.7ms [0.4ms]
+  safe|apply|global|Real.rpow_nonneg:
+    total:      1 in 2.8ms [2.8ms]
+    successful: 1 in 2.8ms [2.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Subsingleton.measurableSet:
+    total:      2 in 2.8ms [1.4ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     2 in 2.8ms [1.4ms]
+  safe|apply|global|Continuous.sup:
+    total:      1 in 2.7ms [2.7ms]
+    successful: 1 in 2.7ms [2.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|BoundedContinuousFunction.continuous_eval_const:
+    total:      1 in 2.6ms [2.6ms]
+    successful: 1 in 2.6ms [2.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  norm|destruct|global|Aesop.BuiltinRules.empty_false:
+    total:      1 in 2.5ms [2.5ms]
+    successful: 1 in 2.5ms [2.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|measurable_one:
+    total:      1 in 2.5ms [2.5ms]
+    successful: 1 in 2.5ms [2.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Complex.continuous_ofReal:
+    total:      4 in 2.4ms [0.6ms]
+    successful: 4 in 2.4ms [0.6ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Complex.continuous_re:
+    total:      4 in 2.3ms [0.5ms]
+    successful: 4 in 2.3ms [0.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Measurable.ennreal_tsum':
+    total:      1 in 2.2ms [2.2ms]
+    successful: 1 in 2.2ms [2.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|SimplexCategory.continuous_toTopMap:
+    total:      1 in 2.2ms [2.2ms]
+    successful: 1 in 2.2ms [2.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|Matroid.closure_subset_ground:
+    total:      1 in 2.1ms [2.1ms]
+    successful: 1 in 2.1ms [2.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Continuous.Prod.mk:
+    total:      1 in 1.9ms [1.9ms]
+    successful: 1 in 1.9ms [1.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|MeasureTheory.SimpleFunc.measurable:
+    total:      1 in 1.9ms [1.9ms]
+    successful: 1 in 1.9ms [1.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Asymptotics.isBigO_refl:
+    total:      1 in 1.7ms [1.7ms]
+    successful: 1 in 1.7ms [1.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|AkraBazziRecurrence.T_pos:
+    total:      1 in 1.6ms [1.6ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 1.6ms [1.6ms]
+  safe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.insert_subset_ground:
+    total:      1 in 1.5ms [1.5ms]
+    successful: 1 in 1.5ms [1.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  unsafe|apply|global|IsSelfAdjoint.map:
+    total:      1 in 1.5ms [1.5ms]
+    successful: 1 in 1.5ms [1.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|continuous_uLift_up:
+    total:      1 in 1.5ms [1.5ms]
+    successful: 1 in 1.5ms [1.5ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Set.union_subset:
+    total:      1 in 1.4ms [1.4ms]
+    successful: 1 in 1.4ms [1.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Path.Homotopy.continuous_transAssocReparamAux:
+    total:      2 in 1.4ms [0.7ms]
+    successful: 2 in 1.4ms [0.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|SeparationQuotient.continuous_mk:
+    total:      1 in 1.4ms [1.4ms]
+    successful: 1 in 1.4ms [1.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|DomMulAct.continuous_mk:
+    total:      1 in 1.4ms [1.4ms]
+    successful: 1 in 1.4ms [1.4ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Path.Homotopy.continuous_transReflReparamAux:
+    total:      2 in 1.4ms [0.7ms]
+    successful: 2 in 1.4ms [0.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Set.iUnion_subset:
+    total:      1 in 1.3ms [1.3ms]
+    successful: 1 in 1.3ms [1.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|_private.Mathlib.Data.Matroid.Basic.0.Matroid.ground_subset_ground:
+    total:      1 in 1.3ms [1.3ms]
+    successful: 1 in 1.3ms [1.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|measurable_pi_lambda:
+    total:      1 in 1.3ms [1.3ms]
+    successful: 1 in 1.3ms [1.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|MulOpposite.continuous_op:
+    total:      1 in 1.3ms [1.3ms]
+    successful: 1 in 1.3ms [1.3ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Set.empty_subset:
+    total:      1 in 1.2ms [1.2ms]
+    successful: 1 in 1.2ms [1.2ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|constructors|global|Sym2.Rel:
+    total:      1 in 1.2ms [1.2ms]
+    successful: 0 in 0.0ms [0.0ms]
+    failed:     1 in 1.2ms [1.2ms]
+  safe|apply|global|Real.rpow_pos_of_pos:
+    total:      1 in 1.1ms [1.1ms]
+    successful: 1 in 1.1ms [1.1ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|PUnit.unit:
+    total:      1 in 0.9ms [0.9ms]
+    successful: 1 in 0.9ms [0.9ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Path.Homotopy.continuous_reflTransSymmAux:
+    total:      1 in 0.8ms [0.8ms]
+    successful: 1 in 0.8ms [0.8ms]
+    failed:     0 in 0.0ms [0.0ms]
+  safe|apply|global|Real.continuous_sqrt:
+    total:      1 in 0.7ms [0.7ms]
+    successful: 1 in 0.7ms [0.7ms]
+    failed:     0 in 0.0ms [0.0ms]
+  
